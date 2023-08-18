@@ -1,11 +1,11 @@
-// import React from 'react' // You can uncomment this line if you haven't imported React elsewhere.
+import React from 'react'
 
 const Tabs = props => {
-  const {tabDetails, clickItem, isActive} = props
+  const {tabDetails, clickTabItem, isActive} = props
   const {id, buttonText} = tabDetails
 
   const onClickTabItem = () => {
-    clickItem(id)
+    clickTabItem(id)
   }
 
   const activeTabBtnClassName = isActive ? 'active-tab-btn' : ''

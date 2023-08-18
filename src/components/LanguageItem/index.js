@@ -1,6 +1,8 @@
+import React from 'react'
+
 const LanguageItem = props => {
-  const {LanguageDetails} = props
-  const {imageUrl, imageAltText} = LanguageDetails
+  const {languageDetails} = props
+  const {imageUrl, imageAltText} = languageDetails
 
   return (
     <li className="item-container">
